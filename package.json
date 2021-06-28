@@ -1,0 +1,46 @@
+{
+  "name": "game-up",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "material-table": "^1.69.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "moment": "^2.29.0",
+    "react": "^16.13.1",
+    "react-base64-downloader": "^2.1.6",
+    "react-dom": "^16.13.1",
+    "react-pdf": "^5.0.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "serve": "^12.0.0",
+    "sweetalert2": "^9.17.2"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
