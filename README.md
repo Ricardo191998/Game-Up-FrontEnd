@@ -23,10 +23,8 @@ Necesitamos
     
     npm install
 
-###¿Cómo correrlo?
-
-   cd Game-Up-FrontEnd
-   
+ Una vez teniendo todo esto ejecutar el comando
+  
    npm run dev 
   
 
